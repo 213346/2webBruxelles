@@ -27,10 +27,14 @@ if(isset($_REQUEST["username"])&&
         setcookie("users",
             json_encode($users),
             time() + 60 * 60 * 24 * 30);
-        $_SESSION["user"]= $user;
+
+
+        $_SESSION["user"] = json_decode(json_encode($user));
         header("location:../translate.php");
+
+
     }
 }else{
-    header("location:../index.php?error=2&tap=register");
+    header("location:../index.php?error=2&tap=register&email=&username");
 }
 ?>

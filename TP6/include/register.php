@@ -1,13 +1,17 @@
 <div class="row d-flex justify-content-center">
     <form method="post" class="col-12 col-sm-6 p-5" action="../server/register.php">
-        <?php if(
+        <?php
+        $user = null;
+        if(
                 isset($_GET["error"])
             &&  isset($_GET["tap"])
+            &&  isset($_GET["email"])
+            &&  isset($_GET["username"])
             && $_GET["tap"]=="register"
         )
-
+        {
             $user=["email"=>$_GET["email"],"username"=>$_GET["username"]];
-        { ?>
+      ?>
              <div class="alert alert-danger">
                  Error !
              </div>

@@ -8,7 +8,7 @@ if(
     $remember= null;
     if (isset($_REQUEST["remember"]))
     {
-        $remember=$_REQUEST["remember"];
+        $remember="on";
     }
     $password=$_REQUEST["password"];
     $email=$_REQUEST["email"];
@@ -33,9 +33,9 @@ if(
 
            foreach ($users as $user)
            {
-              if ($user["email"] === $email &&
-                  $user["password"] === $password ) {
-                  $_SESSION["user"]= $user;
+              if ($user!=null && $user->email === $email &&
+                  $user->password === $password ) {
+                  $_SESSION["user"] = $user;
               }
            }
 
@@ -59,6 +59,6 @@ if(
     //print_r($_REQUEST["remember"]);
     //print_r($_REQUEST["password"]);
     //print_r($_REQUEST["email"]);
-    header("location:../index.php?error=2&tap=login");
+    header("location:../index.php?error=2&tap=login&email=");
 }
 ?>

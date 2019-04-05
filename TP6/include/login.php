@@ -1,7 +1,8 @@
 <?php
     $user = null;
     if ( isset($_COOKIE["user"]) && $_COOKIE["user"] !=null){
-        $user = json_decode( $_COOKIE["user"]);
+
+        $user = json_decode( $_COOKIE["user"],true);
     }
 ?>
 
@@ -9,6 +10,7 @@
     <form class="col-12 col-sm-6 p-5" method="post" action="../server/login.php">
         <?php if(isset($_GET["error"])
             && isset($_GET["tap"])
+            && isset($_GET["email"])
             && $_GET["tap"]=="login"
         ){
             $user=["email"=>$_GET["email"]];
