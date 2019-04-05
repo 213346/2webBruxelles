@@ -8,6 +8,11 @@
     <title>Document</title>
     <?php
         include_once ("include/header.php");
+    if(isset($_SESSION["user"])&& $_SESSION["user"]!=null){
+        header("location:translate.php");
+    }
+    $actiftap = isset($_GET["tap"])? $_GET["tap"] : "login";
+
     ?>
 
 </head>
@@ -17,7 +22,7 @@
         <div class="col-12">
             <ul class="nav nav-tabs"  id="myTab" role="tablist">
                 <li class="nav-item">
-                    <a class="nav-link active"
+                    <a class="nav-link <?php if($actiftap==="login") echo 'active'; ?>"
                        id="Login-tab" data-toggle="tab" href="#Login"
                        role="tab" aria-controls="home"
                        aria-selected="true">
@@ -25,7 +30,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link"
+                    <a class="nav-link <?php if($actiftap==="register") echo 'active'; ?>"
                        id="Register-tab" data-toggle="tab" href="#Register"
                        role="tab" aria-controls="profile"
                        aria-selected="false">
@@ -34,13 +39,13 @@
                 </li>
             </ul>
             <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade show active"
+                <div class="tab-pane fade  <?php if($actiftap==="login") echo 'show active'; ?>"
                      id="Login" role="tabpanel" aria-labelledby="Login-tab">
                     <?php
                     include_once ("include/login.php");
                     ?>
                 </div>
-                <div class="tab-pane fade" id="Register"
+                <div class="tab-pane fade <?php if($actiftap==="register") echo 'show active'; ?>" id="Register"
                      role="tabpanel" aria-labelledby="Register-tab">
                     <?php
                     include_once ("include/register.php");

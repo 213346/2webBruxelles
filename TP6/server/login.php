@@ -1,18 +1,22 @@
 <?php
 //recupérer les informations du client
 session_start();
-if(isset($_REQUEST["remember"])&&
+if(
     isset($_REQUEST["password"])&&
     isset($_REQUEST["email"]))
 {
-    $remember=$_REQUEST["remember"];
+    $remember= null;
+    if (isset($_REQUEST["remember"]))
+    {
+        $remember=$_REQUEST["remember"];
+    }
     $password=$_REQUEST["password"];
     $email=$_REQUEST["email"];
     if(
         empty(trim($password))||
         empty(trim($email)))
     {
-        header("location:index.php?error=1&tap=login");
+        header("location:../index.php?error=1&tap=login&email=$email");
 
     }else{
         $users=null;
@@ -23,7 +27,7 @@ if(isset($_REQUEST["remember"])&&
 
         if($users == null)
         {
-            header("location:index.php?error=3&tap=login");
+            header("location:../index.php?error=3&tap=login&email=$email");
         }
         else{
 
@@ -36,7 +40,7 @@ if(isset($_REQUEST["remember"])&&
            }
 
            if ($_SESSION["user"]==null){
-               header("location:index.php?error=3&tap=login");
+               header("location:../index.php?error=3&tap=login&email=$email");
            }
            else{
                if (!empty($remember)){
@@ -47,11 +51,14 @@ if(isset($_REQUEST["remember"])&&
                        json_encode($user),
                        time() + 60 * 60 * 24 * 30);
                }
-               header("location:translate.php");
+               header("location:../translate.php");
            }
         }
     }
 }else{
-    header("location:index.php?error=2&tap=login");
+    //print_r($_REQUEST["remember"]);
+    //print_r($_REQUEST["password"]);
+    //print_r($_REQUEST["email"]);
+    header("location:../index.php?error=2&tap=login");
 }
 ?>
