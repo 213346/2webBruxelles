@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #content
+        {
+            color: green;
+            font-size: 2em;
+            margin: 2em;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+<form action="" method="post">
+    <label for="message">Nom:</label> <br>
+    <input type="text" name="message" id="message" placeholder="veuillez saisir un nom">
+    <button id="btnRefreshData">Refresh data</button>
+    <div id="content"></div>
+</form>
+
+    <script>
+        var btn=document.querySelector("#btnRefreshData");
+        var content=document.querySelector("#content");
+        var inputMessage=document.querySelector("#message")
+        btn.addEventListener("click",function (e)
+        {
+            e.preventDefault();
+            var xhr= new XMLHttpRequest();
+            xhr.onreadystatechange=function ()
+            {
+                if (xhr.readyState==4)
+                {
+                    if(xhr.status==200)
+                    {
+                        //alert(xhr.responseText);
+                        content.innerText=xhr.responseText;
+                    }
+                    else
+                    {
+                        alert("failled");
+                    }
+                }
+            }
+
+            xhr.open("POST","Remote.php");
+            var fd=new FormData();
+            fd.append("message",inputMessage.value);
+            xhr.send(fd);
+        });
+    </script>
+</body>
+</html>

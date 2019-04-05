@@ -1,0 +1,19 @@
+img{
+    width: 50%;
+
+}
+table{
+    width: 100%;
+}
+.lastelement{
+    text-align: center;
+}
+td,th{
+    border-color: aqua;
+}
+.active{
+    color: burlywood;
+    text-decoration: underline;
+    font-weight: bold;
+    transition: 1s;
+}
