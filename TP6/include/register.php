@@ -1,9 +1,13 @@
 <div class="row d-flex justify-content-center">
     <form method="post" class="col-12 col-sm-6 p-5" action="../server/register.php">
-        <?php if(isset($_GET["error"])
-            && isset($_GET["tab"])
-            && $_GET["tab"]=="register"
-        ){ ?>
+        <?php if(
+                isset($_GET["error"])
+            &&  isset($_GET["tap"])
+            && $_GET["tap"]=="register"
+        )
+
+            $user=["email"=>$_GET["email"],"username"=>$_GET["username"]];
+        { ?>
              <div class="alert alert-danger">
                  Error !
              </div>
@@ -11,12 +15,14 @@
         <div class="form-group">
             <label for="username">username</label>
             <input autocomplete="off" class="form-control"
+                   value="<?php if($user!=null) echo $user["username"]; ?>"
                    type="text" id="username" name="username"
                    placeholder="toto"/>
         </div>
         <div class="form-group">
             <label for="email">E-mail</label>
             <input autocomplete="off" class="form-control"
+                   value="<?php if($user!=null) echo $user["email"]; ?>"
                    type="email" id="email" name="email"
                    placeholder="exemple@supinfo.com"/>
         </div>

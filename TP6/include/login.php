@@ -8,9 +8,11 @@
 <div class="row d-flex justify-content-center">
     <form class="col-12 col-sm-6 p-5" method="post" action="../server/login.php">
         <?php if(isset($_GET["error"])
-            && isset($_GET["tab"])
-            && $_GET["tab"]=="register"
-        ){ ?>
+            && isset($_GET["tap"])
+            && $_GET["tap"]=="login"
+        ){
+            $user=["email"=>$_GET["email"]];
+            ?>
             <div class="alert alert-danger">
                 Bad credential !
             </div>
