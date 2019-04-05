@@ -8,6 +8,9 @@
     <title>Document</title>
     <?php
     include_once ("include/header.php");
+    if($_SESSION["user"]==null){
+        header("location:index.php");
+    }
     ?>
 </head>
 <body>
