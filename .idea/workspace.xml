@@ -2,37 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fa00ae3-b1e3-4881-a849-4d51c6201b08" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TP6/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP6/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP6/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP6/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP6/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP6/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP6/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP6/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP6/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP6/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP6/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP6/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP6/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP6/include/footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP6/include/header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP6/include/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP6/include/register.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP6/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP6/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP6/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP6/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP6/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP6/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP6/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP6/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP6/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP6/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP6/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP6/translate.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,8 +11,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -50,6 +20,24 @@
                 <caret line="1" selection-start-line="1" selection-end-line="1" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TP6/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TP6/translate.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -100,6 +88,11 @@
               <item name="2webBruxelles" type="b2602c69:ProjectViewProjectNode" />
               <item name="2webBruxelles" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="2webBruxelles" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2webBruxelles" type="462c0819:PsiDirectoryNode" />
+              <item name="TP6" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -145,18 +138,18 @@
       <updated>1554451535618</updated>
       <workItem from="1554451537096" duration="283000" />
       <workItem from="1554451874865" duration="594000" />
-      <workItem from="1554453286512" duration="670000" />
+      <workItem from="1554453286512" duration="3128000" />
+      <workItem from="1554499159901" duration="2036000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3868000" />
+    <option name="totallyTimeSpent" value="8362000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25302014" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2526475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -202,16 +195,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="21">
-            <caret line="1" selection-start-line="1" selection-end-line="1" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TP6/css/app.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -234,13 +217,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TP6/translate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
-          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TP6/include/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="41">
@@ -248,10 +224,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="21">
+            <caret line="1" selection-start-line="1" selection-end-line="1" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TP6/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
+        <state relative-caret-position="357">
           <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP6/translate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
         </state>
       </provider>
     </entry>
