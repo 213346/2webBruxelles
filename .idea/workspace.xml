@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fa00ae3-b1e3-4881-a849-4d51c6201b08" name="Default Changelist" comment="">
+<<<<<<< HEAD
+=======
+      <change afterPath="$PROJECT_DIR$/TP6/include/nav.php" afterDir="false" />
+>>>>>>> fe852e55d0e184765d3e09bd8bc19645e68745c4
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP6/include/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP6/include/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP6/include/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP6/include/register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP6/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP6/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP6/server/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP6/server/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP6/server/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP6/server/register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP6/translate.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP6/translate.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,6 +23,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/Readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -20,6 +31,38 @@
                 <caret line="1" selection-start-line="1" selection-end-line="1" />
               </first_editor>
               <second_editor />
+=======
+        <entry file="file://$PROJECT_DIR$/TP6/include/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="123">
+              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TP6/translate.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="410">
+              <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TP6/include/nav.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="60" selection-start-column="60" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TP6/include/register.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -27,17 +70,52 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TP6/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+            <state relative-caret-position="205">
+              <caret line="41" column="83" selection-start-line="41" selection-start-column="83" selection-end-line="41" selection-end-column="83" />
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TP6/server/register.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="574">
+              <caret line="14" column="90" lean-forward="true" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="90" />
+>>>>>>> fe852e55d0e184765d3e09bd8bc19645e68745c4
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TP6/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TP6/server/login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="369">
+              <caret line="18" column="68" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
+>>>>>>> fe852e55d0e184765d3e09bd8bc19645e68745c4
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TP6/translate.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
               <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TP6/include/login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="22" column="72" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="72" />
+>>>>>>> fe852e55d0e184765d3e09bd8bc19645e68745c4
             </state>
           </provider>
         </entry>
@@ -60,11 +138,20 @@
       <list>
         <option value="$PROJECT_DIR$/TP6/css/app.css" />
         <option value="$PROJECT_DIR$/TP6/js/app.js" />
-        <option value="$PROJECT_DIR$/TP6/include/header.php" />
         <option value="$PROJECT_DIR$/TP6/include/footer.php" />
+        <option value="$PROJECT_DIR$/TP6/include/header.php" />
+        <option value="$PROJECT_DIR$/TP6/server/translation.php" />
+        <option value="$PROJECT_DIR$/TP6/server/register.php" />
+        <option value="$PROJECT_DIR$/TP6/include/login.php" />
+        <option value="$PROJECT_DIR$/TP6/include/nav.php" />
         <option value="$PROJECT_DIR$/TP6/translate.php" />
+        <option value="$PROJECT_DIR$/TP6/include/register.php" />
         <option value="$PROJECT_DIR$/TP6/index.php" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/Readme.md" />
+=======
+        <option value="$PROJECT_DIR$/TP6/server/login.php" />
+>>>>>>> fe852e55d0e184765d3e09bd8bc19645e68745c4
       </list>
     </option>
   </component>
@@ -85,14 +172,40 @@
         <subPane>
           <expand>
             <path>
+<<<<<<< HEAD
               <item name="2webBruxelles" type="b2602c69:ProjectViewProjectNode" />
               <item name="2webBruxelles" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="2WEB - Web programming with PHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2WEB - Web programming with PHP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2WEB - Web programming with PHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2WEB - Web programming with PHP" type="462c0819:PsiDirectoryNode" />
+              <item name="TP6" type="462c0819:PsiDirectoryNode" />
+>>>>>>> fe852e55d0e184765d3e09bd8bc19645e68745c4
             </path>
             <path>
               <item name="2webBruxelles" type="b2602c69:ProjectViewProjectNode" />
               <item name="2webBruxelles" type="462c0819:PsiDirectoryNode" />
               <item name="TP6" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
+=======
+            <path>
+              <item name="2WEB - Web programming with PHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2WEB - Web programming with PHP" type="462c0819:PsiDirectoryNode" />
+              <item name="TP6" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2WEB - Web programming with PHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2WEB - Web programming with PHP" type="462c0819:PsiDirectoryNode" />
+              <item name="TP6" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+>>>>>>> fe852e55d0e184765d3e09bd8bc19645e68745c4
           </expand>
           <select />
         </subPane>
@@ -107,11 +220,11 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\telechargement\Supinfo 2018-2019\2WEB - Web programming with PHP\TP6\js" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\telechargement\Supinfo 2018-2019\2WEB - Web programming with PHP\TP6\include" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\telechargement\Supinfo 2018-2019\2WEB - Web programming with PHP\TP6\js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -141,50 +254,68 @@
       <workItem from="1554453286512" duration="3128000" />
       <workItem from="1554499159901" duration="2036000" />
     </task>
+    <task id="LOCAL-00001" summary="Merge branch 'leonie' of https://github.com/213346/2webBruxelles into leonie&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <created>1554457638062</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1554457638062</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="8362000" />
+=======
+    <option name="totallyTimeSpent" value="12394000" />
+>>>>>>> fe852e55d0e184765d3e09bd8bc19645e68745c4
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
+<<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2526475" />
+=======
+      <window_info content_ui="combo" id="Project" order="0" weight="0.42416108" />
+>>>>>>> fe852e55d0e184765d3e09bd8bc19645e68745c4
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.8725212" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.04249292" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.8725212" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.42416108" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.8725212" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.04249292" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.8725212" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -194,20 +325,15 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Merge branch 'leonie' of https://github.com/213346/2webBruxelles into leonie&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'leonie' of https://github.com/213346/2webBruxelles into leonie&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/TP6/css/app.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/TP6/js/app.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP6/include/login.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP6/include/register.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP6/js/jquery.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/TP6/include/footer.php">
@@ -217,10 +343,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28">
+          <caret line="195" selection-start-line="195" selection-end-line="195" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP6/js/jquery.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP6/include/nav.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="60" selection-start-column="60" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP6/server/translation.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/TP6/include/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="1" column="43" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
+        <state relative-caret-position="123">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/TP6/include/header.php">
+=======
+    <entry file="file://$PROJECT_DIR$/TP6/translate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP6/server/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="14" column="90" lean-forward="true" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP6/include/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="22" column="72" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP6/include/register.php">
+>>>>>>> fe852e55d0e184765d3e09bd8bc19645e68745c4
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -236,8 +414,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TP6/index.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="357">
           <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+=======
+        <state relative-caret-position="205">
+          <caret line="41" column="83" selection-start-line="41" selection-start-column="83" selection-end-line="41" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP6/server/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="18" column="68" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
+>>>>>>> fe852e55d0e184765d3e09bd8bc19645e68745c4
         </state>
       </provider>
     </entry>
