@@ -1,5 +1,6 @@
 <?php
 
+
 class User {
     public  $id;
     public  $username;
@@ -66,13 +67,8 @@ class Recipe {
 
 
 
-$user = "root";
-$password = "root";
-$hostname = "localhost";
-$dbname = "supcooking";
-$dbh = null;
 try { 
-	$dbh = new PDO('mysql:host='.$hostname.';dbname='.$dbname,$user,  $password);
+    include_once ('db.php');
     
         //var_dump(LastRecipe());
         initUser();
@@ -251,7 +247,8 @@ try {
 
     function insertUser(User $user)
     {
-        $dbh = $GLOBALS['dbh'];
+        global $dbh;
+        // $dbh = $GLOBALS['dbh'];
         $stmt = $dbh->prepare("INSERT INTO user(username,email,password,lastName,firstName,phoneNumber,address) VALUES
                                                (:username, :email,:password,:lastName,:firstName,:phoneNumber,:address)");
         $password =  md5($user->password);

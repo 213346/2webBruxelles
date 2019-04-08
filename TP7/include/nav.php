@@ -10,12 +10,26 @@
                 <a class="nav-link text-white" href="../index.php">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-white" href="../help.php">Help</a>
+                <a class="nav-link text-white" href="../translate.php">Translate</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="../post.php">Post</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="../article.php">Article</a>
+            </li>
+            
         </ul>
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
                 <a class="nav-link text-white" href="../server/logout.php">Logout</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="../profile.php">
+                    <?php
+                        echo $_SESSION['user']->username; 
+                    ?>
+                </a>
             </li>
         </ul>
     </div>

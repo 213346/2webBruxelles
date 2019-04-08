@@ -30,7 +30,7 @@ if(isset($_REQUEST["username"])&&
 
 
         $_SESSION["user"] = json_decode(json_encode($user));
-        header("location:../translate.php");
+        header("location:../home.php");
 
 
     }

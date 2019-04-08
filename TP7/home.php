@@ -6,14 +6,12 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <?php
-    include_once ("include/header.php");
-    if(isset($_SESSION["user"])&& $_SESSION["user"]==null){
-        header("location:index.php");
-    }
-    include_once("include/nav.php");
+    
+</head>
+<body>
+<?php
+    include_once ("include/nav.php");
     ?>
-
     <div class="container mt-5">
         <div class="jumbotron">
             <h1 class="display-4">Hello,
@@ -26,8 +24,8 @@
             <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
         </div>
     </div>
-</head>
-<body>
+
+
 <?php
 include_once ("include/footer.php");
 ?>

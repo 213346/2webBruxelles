@@ -51,7 +51,7 @@ if(
                        json_encode($user),
                        time() + 60 * 60 * 24 * 30);
                }
-               header("location:../translate.php");
+               header("location:../home.php");
            }
         }
     }

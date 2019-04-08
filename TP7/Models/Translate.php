@@ -26,7 +26,7 @@ class Translate {
         $this->_value = $value;
     }
 
-    public static function getCorrepondance1(){
+    public static function getCorrepondance(){
       return [
           new Translate('a', 'y'),
           new Translate('b', 'p'),
